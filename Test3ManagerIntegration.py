@@ -2,7 +2,7 @@ import unittest
 from moto import mock_s3
 import boto3
 import pymysql
-from my_script import save_to_database, save_report_to_s3, get_last_file_name, rename_file_in_s3, query_database
+from my_script import get_secret, save_to_database, save_report_to_s3, get_last_file_name, rename_file_in_s3, query_database
 
 class TestAWSServicesIntegration(unittest.TestCase):
 
